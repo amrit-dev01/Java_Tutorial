@@ -130,7 +130,7 @@ public class Operators {
         Object str = "Hello";
         System.out.println(str instanceof String);
 
-        Object obj = Integer.valueOf(10);
+        Object obj = 10;
         System.out.println(obj instanceof Integer);
         System.out.println(obj instanceof String);
     }
